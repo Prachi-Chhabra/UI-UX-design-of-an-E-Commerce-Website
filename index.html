@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopperSpot | Ecommerce Website Design </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
@@ -16,10 +17,11 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="" width=" 125px">
+                    <img src="images/logofinal.png" width=" 200px">
                 </div>
+
                 <nav>
-                    <ul>
+                    <ul id="menuitems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -29,7 +31,7 @@
                 </nav>
 
                 <i class="fa-solid fa-cart-shopping" style="color: #000000; size: 30px;"> Cart</i>
-                
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -40,9 +42,10 @@
                         but about expressing your unique identity. With unbeatable deals and exclusive offers,
                         we invite you to redefine your wardrobe, one exquisite piece at a time.</p>
                     <a href="" class="btn">Explore Now &#8594;</a>
+
                 </div>
                 <div class="col-2">
-                    <img  src="images/model3.png">
+                    <img src="images/front2.png" text-align- center>
                 </div>
             </div>
         </div>
@@ -56,10 +59,10 @@
                     <img src="images/Category1.jpg">
                 </div>
                 <div class="col-3">
-                    <img src="images/Category2.jpg">
+                    <img src="images/category2.jpg">
                 </div>
                 <div class="col-3">
-                    <img src="images/Category3.jpg">
+                    <img src="images/category3.jpg">
                 </div>
 
             </div>
@@ -128,15 +131,17 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <img src="images/watch3.png" class="offer-img">
+                    <img src="images/watch3.png" class="offer-img" text-align: left>
                 </div>
                 <div class="col-2">
-                    <p>Exclusiveky Available on ShopperSpot</p>
+                    <p>Exclusively Available on ShopperSpot</p>
                     <h1>Dress Berry Wrist Watch</h1>
-                    <small>This wristwatch exudes timeless elegance with its 
-                        sleek stainless steel case and a minimalist, sunray dial. The markers and hands are luminescent, ensuring clear readability in any light. A genuine leather strap complements the design, making it a versatile accessory suitable
-                         for both formal occasions and everyday wear.</small>
-                         <br>
+                    <small>This wristwatch exudes timeless elegance with its
+                        sleek stainless steel case and a minimalist, sunray dial. The markers and hands are luminescent,
+                        ensuring clear readability in any light. A genuine leather strap complements the design, making
+                        it a versatile accessory suitable
+                        for both formal occasions and everyday wear.</small>
+                    <br>
                     <a href="" class="btn">Buy Now &#8594;</a>
                 </div>
             </div>
@@ -148,7 +153,8 @@
             <div class="row">
                 <div class="col-3">
                     <i class="fa fa-quote-left "></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
                     <div class="rating">
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star "></i>
@@ -158,10 +164,11 @@
                     </div>
                     <img src="images/human2.webp">
                     <h3>Name Surname</h3>
-                </div>   
+                </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left "></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
                     <div class="rating">
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star "></i>
@@ -171,10 +178,11 @@
                     </div>
                     <img src="images/human2.webp">
                     <h3>Name Surname</h3>
-                </div>   
+                </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left "></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s.</p>
                     <div class="rating">
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star "></i>
@@ -184,7 +192,7 @@
                     </div>
                     <img src="images/human2.webp">
                     <h3>Name Surname</h3>
-                </div>   
+                </div>
             </div>
         </div>
     </div>
@@ -213,42 +221,57 @@
     <!-----------------------footer----------------->
     <div class="footer">
         <div class="fcontainer">
-           <div class="row">
-            <div class="footer-col-1">
-                <h3>Download Our App</h3>
-                <p>Download App for Android and ios mobile phone</p>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" text-align: center>
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logofinal.png">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-col-2">
-                <img src="images/logo-white.png">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
-            </div>
-            <div class="footer-col-3">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>YouTube</li>
-                </ul>
-            </div>
-           </div> 
-           <hr> 
-           <p class="copyright">Copyright 2023- ABC</p>
+            <hr>
+            <p class="copyright">Copyright 2023- ABC</p>
         </div>
     </div>
+    <!----------------js for toggle menu------------>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px" || menuitems.style.maxHeight == "") {
+                menuitems.style.maxHeight = "200px";
+            }
+            else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 
 </body>
 
